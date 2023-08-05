@@ -1,131 +1,164 @@
 {
     "anxious" : {
-        "confident" : {
+        "confident" : [
+            "In moments of both anxiety and confidence, recognize that it's okay to have a mix of emotions. You're navigating life's complexities with strength and self-awareness.",
+            "Embrace the duality within you. Your anxious thoughts and confident beliefs coexist, reminding you of your multifaceted nature.",
+            "Amidst the ebb and flow of emotions, remember that confidence is a companion that helps you navigate through anxious waters.",
+            "Your anxious moments are windows into your growth. With a foundation of confidence, you can learn from challenges and emerge even stronger.",
+            "Confidence doesn't mean absence of anxiety; it means having faith in your ability to overcome it. You possess the resilience to thrive.",
+            "In moments when anxiety tries to dim your confidence, remind yourself of past victories. Your history of triumphs is your strength.",
+            "Acknowledge your anxious thoughts with kindness and greet your confidence with gratitude. Both are integral parts of your journey.",
+            "Embrace the dance between anxious anticipation and confident readiness. Your mixed emotions are stepping stones to your dreams.",
+            "Let your confident self soothe your anxious self. Like a guiding voice, remind yourself of your innate potential.",
+            "Confidence whispers, 'You've got this,' while anxiety asks, 'What if?' Embrace the duality and let them fuel your progress.",
+            "In the balance of anxious questioning and confident answers, lies your path of self-discovery. Embrace the mystery of the journey.",
+            "Your confident spirit is your compass, guiding you through the maze of an`xiety. Trust that you're headed toward calmer shores.",
+            "Remember that even amid anxiety, your core of confidence remains unshaken. You're a force of resilience and determination.",
+            "The symphony of anxious notes harmonizes with the melody of confidence, creating a beautiful rhythm that propels you forward.",
+            "Your confidence is the anchor that steadies you when anxiety's winds blow strong. You have the power to weather any storm.",
+            "Embrace the paradox of feeling anxious yet confident. It's a testament to your courage—the ability to face uncertainties with grace.",
+            "Let the warmth of confidence melt away the chill of anxiety. You have the strength to thaw even the coldest doubts.",
+            "Amidst your interplay of anxious thoughts and confident strides, remember that both contribute to the masterpiece of your life.",
+            "Your confidence paints vibrant strokes on the canvas of anxiety, creating a masterpiece of resilience and hope.",
+            "In the blend of anxious hesitations and confident leaps, you craft a story of growth and transformation. Embrace every chapter."
+        ],
 
-        },
+        "depressed" : [
+            "In the midst of anxious and depressed moments, remember that seeking help is a sign of strength. You're not alone on this journey.",
+            "Your anxious thoughts and depressed feelings are temporary clouds in the vast sky of your being. The sun of hope always shines above.",
+            "Combining anxious uncertainty with depressed heaviness can be overwhelming. Take it one step at a time; you have the resilience to navigate through.",
+            "During moments of anxiety and depression, self-compassion becomes your guiding light. Treat yourself gently, as you would a dear friend.",
+            "The weight of depression and the restlessness of anxiety may coexist, but remember that you have the capacity to find balance and peace within.",
+            "Amidst the chaos of anxious thoughts and the weight of depression, acknowledge that your feelings are valid. Your emotions deserve recognition.",
+            "In the blend of anxious worries and the cloud of depression, your strength emerges. Your journey toward healing is marked by your courage.",
+            "Your anxious mind and your depressed heart are both part of you, but they don't define you. You're a multifaceted individual with the power to heal.",
+            "While anxiety thrives on what-ifs and depression dwells in lows, your spirit is resilient. Embrace the complexity of your emotions as you heal.",
+            "Your anxious mind speaks of uncertainties, while your depressed heart yearns for solace. Give yourself permission to seek the comfort and support you need.",
+            "Conflicting emotions of anxiety and depression reveal the depth of your sensitivity. In that sensitivity lies the potential for profound healing.",
+            "Amidst anxious restlessness and the weight of depression, remember that you are a canvas of emotions. Each shade contributes to the masterpiece of you.",
+            "Your anxious moments may collide with the cloud of depression, but within you exists an unbreakable spirit, determined to find its light.",
+            "The battle between anxiety and depression is a reminder of your strength. Through this journey, you're forging a path to greater understanding.",
+            "Let your anxious thoughts and depressed feelings guide you toward self-discovery. Your healing journey starts with acknowledging your emotions."
+        ],
 
-        "depressed" : {
+        "disappointed" : [
 
-        },
+        ],
 
-        "disappointed" : {
+        "excited" : [
 
-        },
+        ],
 
-        "excited" : {
+        "insecure" : [
 
-        },
+        ], 
 
-        "insecure" : {
-
-        }, 
-
-        "joyful" : {
+        "joyful" : [
         
-        }, 
+        ], 
 
-        "surprised" : {
+        "surprised" : [
 
-        }
+        ]
     },
 
 
     "confident" : {
-        "depressed" : {
+        "depressed" : [
 
-        },
+        ],
 
-        "disappointed" : {
+        "disappointed" : [
 
-        },
+        ],
 
-        "excited" : {
+        "excited" : [
 
-        },
+        ],
 
-        "insecure" : {
+        "insecure" : [
 
-        }, 
+        ], 
 
-        "joyful" : {
+        "joyful" : [
         
-        }, 
+        ], 
 
-        "surprised" : {
+        "surprised" : [
 
-        }
+        ]
     },
 
     "depressed" : {
-        "disappointed" : {
+        "disappointed" : [
 
-        },
+        ],
 
-        "excited" : {
+        "excited" : [
 
-        },
+        ],
 
-        "insecure" : {
+        "insecure" : [
 
-        }, 
+        ], 
 
-        "joyful" : {
+        "joyful" : [
         
-        }, 
+        ], 
 
-        "surprised" : {
+        "surprised" : [
 
-        }
+        ]
     },
 
     "disappointed" : {
-        "excited" : {
+        "excited" : [
 
-        },
+        ],
 
-        "insecure" : {
+        "insecure" : [
 
-        }, 
+        ], 
 
-        "joyful" : {
+        "joyful" : [
         
-        }, 
+        ], 
 
-        "surprised" : {
+        "surprised" : [
 
-        }
+        ]
     },
 
 
     "excited" : {
-        "insecure" : {
+        "insecure" : [
 
-        }, 
+        ], 
 
-        "joyful" : {
+        "joyful" : [
         
-        }, 
+        ], 
 
-        "surprised" : {
+        "surprised" : [
 
-        }
+        ]
     },
 
 
     "insecure" : {
-        "joyful" : {
+        "joyful" : [
         
-        }, 
+        ], 
 
-        "surprised" : {
+        "surprised" : [
 
-        }
+        ]
     },
 
 
     "joyful" : {
-        "surprised" : {
+        "surprised" : [
 
-        }
+        ]
     }
 }

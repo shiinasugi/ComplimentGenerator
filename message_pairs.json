@@ -1,0 +1,131 @@
+{
+    "anxious" : {
+        "confident" : {
+
+        },
+
+        "depressed" : {
+
+        },
+
+        "disappointed" : {
+
+        },
+
+        "excited" : {
+
+        },
+
+        "insecure" : {
+
+        }, 
+
+        "joyful" : {
+        
+        }, 
+
+        "surprised" : {
+
+        }
+    },
+
+
+    "confident" : {
+        "depressed" : {
+
+        },
+
+        "disappointed" : {
+
+        },
+
+        "excited" : {
+
+        },
+
+        "insecure" : {
+
+        }, 
+
+        "joyful" : {
+        
+        }, 
+
+        "surprised" : {
+
+        }
+    },
+
+    "depressed" : {
+        "disappointed" : {
+
+        },
+
+        "excited" : {
+
+        },
+
+        "insecure" : {
+
+        }, 
+
+        "joyful" : {
+        
+        }, 
+
+        "surprised" : {
+
+        }
+    },
+
+    "disappointed" : {
+        "excited" : {
+
+        },
+
+        "insecure" : {
+
+        }, 
+
+        "joyful" : {
+        
+        }, 
+
+        "surprised" : {
+
+        }
+    },
+
+
+    "excited" : {
+        "insecure" : {
+
+        }, 
+
+        "joyful" : {
+        
+        }, 
+
+        "surprised" : {
+
+        }
+    },
+
+
+    "insecure" : {
+        "joyful" : {
+        
+        }, 
+
+        "surprised" : {
+
+        }
+    },
+
+
+    "joyful" : {
+        "surprised" : {
+
+        }
+    }
+}

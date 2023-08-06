@@ -20,8 +20,11 @@ const feelingsToImages = {
 
 
 const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
-  const [arg1, arg2] = [selectedEmotions[0], selectedEmotions[1]];
+  let [arg1, arg2] = [selectedEmotions[0], selectedEmotions[1]];
   const [randomString, setRandomString] = useState(null);
+
+  arg1 = arg1.toLowerCase();
+  arg2 = arg2.toLowerCase();
 
   useEffect(() => {
     const sortedArguments = [arg1, arg2].sort(); // Sort the arguments alphabetically

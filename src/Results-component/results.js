@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import jsonData from '../message_pairs.json'
 
 // import './feelingsImages'
@@ -64,6 +64,21 @@ const ResultsPage = () => { // (arg1, arg2)
           (<p className="random-string">{randomString}</p>) : 
           (<p className="loading">Loading...</p>)}
         </div>
+      </div>
+
+      <div className="back-button">
+        <Link to="../" className="back-arrow">
+
+          <div>
+            Generate another kind message!
+          </div>
+          
+          <div>
+            <span class="material-symbols-outlined">
+              replay
+            </span>
+          </div>
+        </Link>
       </div>
     </div>
   );

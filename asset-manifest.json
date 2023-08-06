@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ComplimentGenerator/static/css/main.199a66af.css",
+    "main.js": "/ComplimentGenerator/static/js/main.53a68dd2.js",
+    "static/media/menuIcon.svg": "/ComplimentGenerator/static/media/menuIcon.94b16cb6547638d14002493dede02a77.svg",
+    "index.html": "/ComplimentGenerator/index.html",
+    "main.199a66af.css.map": "/ComplimentGenerator/static/css/main.199a66af.css.map",
+    "main.53a68dd2.js.map": "/ComplimentGenerator/static/js/main.53a68dd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.199a66af.css",
+    "static/js/main.53a68dd2.js"
+  ]
+}

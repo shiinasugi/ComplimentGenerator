@@ -2,13 +2,13 @@ const styles = {
   container: {
     display: "flex",
     flexDirection: "column", // Stack items vertically
-    alignItems: "flex-start",
     margin: "0 auto",
     padding: "20px",
     textAlign: "center",
     alignItems: "center", // Center text vertically within items
     justifyContent: "center",
   },
+
   heading: {
     width: "444px",
     height: "104px",
@@ -21,6 +21,7 @@ const styles = {
     paddingTop: "50px",
     paddingBottom: "100px",
   },
+
   text: {
     margin: "20px 0", // Add space between items
     color: "#FFF",

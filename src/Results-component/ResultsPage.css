@@ -1,0 +1,110 @@
+/* ResultsPage.css */
+
+body {
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  background-color: #7CC1AC;  /* Set your desired background color */
+  font-family: 'Karla', sans-serif;
+}
+
+.results-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.sorted-keys-container {
+  /* display: inline-block; */
+  margin-bottom: 50px;
+  padding: 10px; /* Add padding for spacing */
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Add text shadow for drop shadow effect */
+  text-align: center;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* flex-direction: column; /* Stack content vertically */
+}
+
+.sorted-keys {
+  color: #FFFFFF;
+  margin: 0 5px;
+  padding: 5px 10px;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
+  font-family: 'Karla', sans-serif;
+  font-size: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 941px;
+}
+
+.arg1 {
+  /*color: #C38D9D; /* Set the desired color */
+  text-decoration: underline;
+  text-decoration-color: #C38D9D;
+}
+
+.arg2 {
+  /* color: #C38D9D; /* Set the desired color */
+  text-decoration: underline;
+  text-decoration-color: #C38D9D;
+}
+
+.images {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 150px;
+  height: 150px; /* Set the image height */
+  margin: 0 10px;
+}
+
+.prompt-container {
+  /* display: inline-block; */
+  margin-bottom: 50px;
+  padding: 10px; /* Add padding for spacing */
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Add text shadow for drop shadow effect */
+  text-align: center;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* flex-direction: column; /* Stack content vertically */
+}
+
+.prompt {
+  margin-top: 20px;
+  width: 941px;
+  color: #FFFFFF;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
+  font-family: 'Karla', 'sans-serif';
+  font-size: 175px;
+  text-align: center;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.prompt2 {
+  margin-top: 20px;
+  width: 941px;
+  color: #FFFFFF;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
+  font-family: 'Karla', sans-serif;
+  font-size: 35px; /* Adjust font size */
+  text-align: center;
+   /*background-color: #e6e6fa; /* Set background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .random-string, */
+.loading {
+  font-size: 18px;
+  color: #333;
+}
+  

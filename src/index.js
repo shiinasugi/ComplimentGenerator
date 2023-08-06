@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import styles from './indexStyles.jsx';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import DefaultLayout from "./layout/default";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./Homepage-component/Homepage";
 import AboutPage from "./testComp/about";
 import MissionPage from "./testComp/mission";
@@ -11,15 +10,15 @@ import MissionPage from "./testComp/mission";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage/>,
+    element: <HomePage />,
   },
-    {
+  {
     path: "/about",
-    element: <AboutPage/>,
+    element: <AboutPage />,
   },
-      {
+  {
     path: "/mission",
-    element: <MissionPage/>,
+    element: <MissionPage />,
   },
 ]);
 
@@ -27,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <DefaultLayout>
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </DefaultLayout>
   </React.StrictMode>
 );

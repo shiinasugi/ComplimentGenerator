@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./aboutStyles";
+import styles from "./aboutStyles.js";
 
 export default function AboutPage() {
   return (

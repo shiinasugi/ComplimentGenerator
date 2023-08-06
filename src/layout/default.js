@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './header'
-import Footer from './footer'
 
 export default function DefaultLayout({ children }) {
   return (
@@ -9,7 +8,6 @@ export default function DefaultLayout({ children }) {
         <div style={{marginTop: 90}}>
           {children}
         </div>
-      <Footer/>
     </div>
   )
 }

@@ -4,17 +4,6 @@ import jsonData from "../message_pairs.json";
 
 import "./ResultsPage.css";
 
-// const feelingsToImages = {
-//   anxious: "./feelingsImages/anxious.jpeg",
-//   confident: "./feelingsImages/confident.avif",
-//   depressed: "./feelingsImages/depressed.avif",
-//   disappointed: "./feelingsImages/disappointed.jpeg",
-//   excited: "src/Results-component/feelingsImages/excited.jpeg",
-//   insecure: "./feelingsImages/insecure.jpeg",
-//   joyful: "./feelingsImages/joyful.jpeg",
-//   surprised: "src/Results-component/feelingsImages/surprised.jpeg",
-// };
-
 const ResultsPage = ({
   selectedEmotions,
   setSelectedEmotions,
@@ -71,7 +60,7 @@ const ResultsPage = ({
 
       <div className="back-button">
         <Link to="../" className="back-arrow" onClick={reset}>
-          <div>Generate another kind message!</div>
+          <div>Generate another kind message.</div>
 
           <div>
             <span class="material-symbols-outlined">replay</span>

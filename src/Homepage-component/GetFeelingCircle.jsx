@@ -11,8 +11,8 @@ const FeelingCircle = ({
   selectedEmotions,
   setSelectedEmotions,
   renderResult,
+  setRenderResult,
 }) => {
-  // const [renderResult, setRenderResult] = useState(false); // use in Homepage component
 
   const data = {
     datasets: [
@@ -93,12 +93,11 @@ const FeelingCircle = ({
     );
   } else {
     return (
-      <>
         <ResultsPage
           selectedEmotions={selectedEmotions}
           setSelectedEmotions={setSelectedEmotions}
+          setRenderResult={setRenderResult}
         />
-      </>
     );
   }
 };

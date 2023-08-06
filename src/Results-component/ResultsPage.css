@@ -34,7 +34,7 @@ body {
   margin: 0 5px;
   padding: 5px 10px;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 40px;
   margin-left: 10px;
   border-radius: 5px;
@@ -78,9 +78,9 @@ body {
 .prompt2 {
   margin-top: 20px;
   width: 1500px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 30px; /* Adjust font size */
   text-align: center;
   padding: 20px; /* Add padding for spacing */
@@ -106,7 +106,7 @@ body {
 }
 
 .back-arrow {
-  color: #019D9F;
+  color: #019d9f;
   font-weight: 500;
   font-size: 25px;
   margin-right: px;
@@ -117,13 +117,13 @@ body {
 }
 
 .back-arrow:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .material-symbols-outlined {
   font-size: 36px;
 }
-  
+
 /* Use media queries to adjust styles for different screen sizes */
 @media screen and (max-width: 768px) {
   .sorted-keys {

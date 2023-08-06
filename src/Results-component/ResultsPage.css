@@ -1,0 +1,72 @@
+/* ResultsPage.css */
+
+body {
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  background-color: #7CC1AC;  /* Set your desired background color */
+  font-family: 'Karla', sans-serif;
+}
+
+.results-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.result-name {
+  text-align: left;
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+  
+/* .sorted-keys {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.key {
+  background-color: #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+} */
+
+.sorted-keys-container {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px; /* Add padding for spacing */
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Add text shadow for drop shadow effect */
+}
+
+.sorted-keys {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  /* background-color: #007bff; */
+  background-color: 7CC1AC;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.arg1 {
+  color: red; /* Set the desired color */
+}
+
+.arg2 {
+  color: blue; /* Set the desired color */
+}
+
+.prompt {
+  margin-top: 20px;
+}
+
+.random-string,
+.loading {
+  font-size: 18px;
+  color: #333;
+}
+  

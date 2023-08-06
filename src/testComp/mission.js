@@ -4,7 +4,7 @@ import styles from "./missionStyles";
 export default function MissionPage() {
   return(
     <div style={styles.container}>
-      <h1 style={styles.heading}>Our Mission</h1>
+      <h1 style={styles.heading}>Our Mission.</h1>
       <div style={styles.missionList}>
         <p style={styles.text}>
           Empowerment: Our mission is to empower

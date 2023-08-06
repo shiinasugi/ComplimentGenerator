@@ -1,20 +1,18 @@
 import { useRef, useState, useEffect } from "react";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import { Chart as ChartJS, ArcElement } from "chart.js";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 import { Pie, getElementsAtEvent } from "react-chartjs-2";
+import ResultsPage from "../Results-component/results";
 import styles from "./FeelingCircleStyles.jsx";
 
 ChartJS.register(ArcElement, ChartDataLabels);
 
-function FeelingCircle() {
-  const [selectedEmotions, setSelectedEmotions] = useState([]);
-  const [isTwoSelected, setIsTwoSelected] = useState(false); // use in Homepage component
-
-  useEffect(() => {
-    if (selectedEmotions.length === 2) {
-      setIsTwoSelected(true);
-    }
-  }, [selectedEmotions]);
+const FeelingCircle = ({
+  selectedEmotions,
+  setSelectedEmotions,
+  renderResult,
+}) => {
+  // const [renderResult, setRenderResult] = useState(false); // use in Homepage component
 
   const data = {
     datasets: [
@@ -45,44 +43,64 @@ function FeelingCircle() {
         },
         font: {
           family: "Karla",
-          size: "30px",
+          size: "40px",
         },
         rotation: [
-          "295", // Joyful, COnfident
-          "340", // Surprised, Excited
-          "25", // Anxious, Depressed
-          "70", // Insecure, Disappointed
+          "292", // Joyful, Confident
+          "337", // Surprised, Excited
+          "22", // Anxious, Depressed
+          "67", // Insecure, Disappointed
         ],
+        align: "center",
       },
     },
   };
 
   const chartRef = useRef();
 
+  useEffect(() => {
+    console.log("replaced array: ", selectedEmotions);
+  }, [selectedEmotions]);
+
   const onClick = (event) => {
     if (getElementsAtEvent(chartRef.current, event).length > 0) {
       const dataPoint = getElementsAtEvent(chartRef.current, event)[0].index;
 
-      console.log(`Get Name: ${data.titles[dataPoint]}`);
-
-      setSelectedEmotions([...selectedEmotions, dataPoint]);
+      if (selectedEmotions[1] !== data.titles[dataPoint]) {
+        if (selectedEmotions.length < 2) {
+          setSelectedEmotions([...selectedEmotions, data.titles[dataPoint]]);
+        } else {
+          setSelectedEmotions([selectedEmotions[1], data.titles[dataPoint]]);
+        }
+      }
     }
   };
 
-  return (
-    <>
-      <div style={styles.PieContainer}>
-        <div style={styles.Pie}>
-          <Pie
-            data={data}
-            options={options}
-            onClick={onClick}
-            ref={chartRef}
-          ></Pie>
+  if (!renderResult) {
+    return (
+      <>
+        <div style={styles.PieContainer}>
+          <div style={styles.Pie}>
+            <Pie
+              data={data}
+              options={options}
+              onClick={onClick}
+              ref={chartRef}
+            ></Pie>
+          </div>
         </div>
-      </div>
-    </>
-  );
-}
+      </>
+    );
+  } else {
+    return (
+      <>
+        <ResultsPage
+          selectedEmotions={selectedEmotions}
+          setSelectedEmotions={setSelectedEmotions}
+        />
+      </>
+    );
+  }
+};
 
 export default FeelingCircle;

@@ -1,26 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import jsonData from '../message_pairs.json'
+import jsonData from "../message_pairs.json";
 
 // import './feelingsImages'
 
-import './ResultsPage.css';
-
+import "./ResultsPage.css";
 
 const feelingsToImages = {
-  "anxious" : './feelingsImages/anxious.jpeg',
-  "confident" : './feelingsImages/confident.avif',
-  "depressed" : './feelingsImages/depressed.avif',
-  "disappointed" : './feelingsImages/disappointed.jpeg',
-  "excited" : 'src/Results-component/feelingsImages/excited.jpeg',
-  "insecure" : './feelingsImages/insecure.jpeg',
-  "joyful" : './feelingsImages/joyful.jpeg',
-  "surprised" : 'src/Results-component/feelingsImages/surprised.jpeg'
+  anxious: "./feelingsImages/anxious.jpeg",
+  confident: "./feelingsImages/confident.avif",
+  depressed: "./feelingsImages/depressed.avif",
+  disappointed: "./feelingsImages/disappointed.jpeg",
+  excited: "src/Results-component/feelingsImages/excited.jpeg",
+  insecure: "./feelingsImages/insecure.jpeg",
+  joyful: "./feelingsImages/joyful.jpeg",
+  surprised: "src/Results-component/feelingsImages/surprised.jpeg",
 };
 
-const ResultsPage = () => {
-  const { arg1, arg2 } = useParams(); // Use useParams to get URL parameters
-
+const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
+  const [arg1, arg2] = [selectedEmotions[0], selectedEmotions[1]];
   const [randomString, setRandomString] = useState(null);
 
   useEffect(() => {
@@ -29,26 +27,24 @@ const ResultsPage = () => {
     const sortedKey2 = sortedArguments[1];
 
     if (!(sortedKey1 in jsonData) || !(sortedKey2 in jsonData[sortedKey1])) {
-      setRandomString('Error: Select correctly');
+      setRandomString("Error: Select correctly");
     } else {
       const resultList = jsonData[sortedKey1][sortedKey2];
 
       if (resultList.length === 0) {
-        setRandomString('Error: Incorrect selection');
+        setRandomString("Error: Incorrect selection");
       } else {
         const randomIndex = Math.floor(Math.random() * resultList.length);
         setRandomString(resultList[randomIndex]);
       }
     }
-
   }, [arg1, arg2]); // Use arg1 and arg2 as dependencies
 
   return (
     <div className="results-container">
       <div className="sorted-keys-container">
         <h2 className="sorted-keys">
-          Looks like you are feeling{' '}
-          <span className="arg1">{arg1}</span> and{' '}
+          Looks like you are feeling <span className="arg1">{arg1}</span> and{" "}
           <span className="arg2">{arg2}</span>!
         </h2>
 
@@ -60,13 +56,15 @@ const ResultsPage = () => {
 
       <div className="prompt-container">
         <div className="prompt2">
-          {randomString !== null ? 
-          (<p className="random-string">{randomString}</p>) : 
-          (<p className="loading">Loading...</p>)}
+          {randomString !== null ? (
+            <p className="random-string">{randomString}</p>
+          ) : (
+            <p className="loading">Loading...</p>
+          )}
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default ResultsPage;

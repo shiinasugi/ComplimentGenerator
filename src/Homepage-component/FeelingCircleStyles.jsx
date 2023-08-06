@@ -4,8 +4,7 @@ const styles = {
   },
 
   Pie: {
-    padding: "20px",
-    width: "700px",
+    width: "800px",
   },
 };
 

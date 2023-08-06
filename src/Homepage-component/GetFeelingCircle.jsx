@@ -44,7 +44,7 @@ function FeelingCircle() {
           return data.titles[args.dataIndex];
         },
         font: {
-          family: "Karla, sans-serif",
+          family: "Karla",
           size: "30px",
         },
         rotation: [

@@ -2,17 +2,20 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom";
 import jsonData from '../message_pairs.json'
 
+// import './feelingsImages'
+
 import './ResultsPage.css';
 
-const argsMap = {
-  "anxious" : -1,
-  "confident" : 1,
-  "depressed" : -1,
-  "disappointed" : -1,
-  "excited" : 1,
-  "insecure" : -1,
-  "joyful" : 1,
-  "surprised" : 1
+
+const feelingsToImages = {
+  "anxious" : './feelingsImages/anxious.jpeg',
+  "confident" : './feelingsImages/confident.avif',
+  "depressed" : './feelingsImages/depressed.avif',
+  "disappointed" : './feelingsImages/disappointed.jpeg',
+  "excited" : 'src/Results-component/feelingsImages/excited.jpeg',
+  "insecure" : './feelingsImages/insecure.jpeg',
+  "joyful" : './feelingsImages/joyful.jpeg',
+  "surprised" : 'src/Results-component/feelingsImages/surprised.jpeg'
 };
 
 const ResultsPage = () => {
@@ -42,24 +45,26 @@ const ResultsPage = () => {
 
   return (
     <div className="results-container">
-      <h2 className="result-name">
-        Results
-      </h2>
-
       <div className="sorted-keys-container">
         <h2 className="sorted-keys">
           Looks like you are feeling{' '}
           <span className="arg1">{arg1}</span> and{' '}
           <span className="arg2">{arg2}</span>!
         </h2>
+
+        {/* <div className="images">
+          <img src='./feelingsImages/excited.jpg' alt={arg1} className="image" />
+          <img src='./feelingsImages/excited.jpg' alt={arg2} className="image" />
+        </div> */}
       </div>
 
-      <div className="prompt">
-        {randomString !== null ? 
-        (<p className="random-string">{randomString}</p>) : 
-        (<p className="loading">Loading...</p>)}
+      <div className="prompt-container">
+        <div className="prompt2">
+          {randomString !== null ? 
+          (<p className="random-string">{randomString}</p>) : 
+          (<p className="loading">Loading...</p>)}
+        </div>
       </div>
-
     </div>
   );
 }

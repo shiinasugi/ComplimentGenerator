@@ -13,7 +13,9 @@ function Homepage() {
             <div style={styles.mainPhrase}>How are you feeling today? </div>
           </div>
 
-          <div style={styles.FeelingCircleContainer}>{FeelingCircle()}</div>
+          <div style={styles.FeelingCircleContainer}>
+            <FeelingCircle />
+          </div>
         </div>
       </div>
     </>

@@ -8,7 +8,7 @@ const styles = {
   Content: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
   },
 
   PhraseContainer: {

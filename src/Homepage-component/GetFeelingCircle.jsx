@@ -45,14 +45,15 @@ function FeelingCircle() {
         },
         font: {
           family: "Karla",
-          size: "30px",
+          size: "40px",
         },
         rotation: [
-          "295", // Joyful, COnfident
-          "340", // Surprised, Excited
-          "25", // Anxious, Depressed
-          "70", // Insecure, Disappointed
+          "292", // Joyful, COnfident
+          "337", // Surprised, Excited
+          "22", // Anxious, Depressed
+          "67", // Insecure, Disappointed
         ],
+        align: "center",
       },
     },
   };

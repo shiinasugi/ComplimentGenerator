@@ -1,44 +1,46 @@
 const styles = {
-  divStyleTest: {
-    fontSize: "25px",
-    color: "gray",
-    fontWeight: "medium",
-  },
-  container: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    minHeight: '100vh',
-  },
   homePage: {
-    width: '100vw',
-    minHeight: '100vh',
-    backgroundColor: '#7CC1AC',
+    width: "100vw",
+    minHeight: "100vh",
+    backgroundColor: "#7CC1AC",
   },
+
+  Content: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between"
+  },
+
+  PhraseContainer: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    minHeight: "100vh",
+  },
+
   mainPhrase: {
-    color: '#FFF',
-    textShadow: '1px 7px 3px rgba(0, 0, 0, 0.11)',
-    fontFamily: 'Karla',
-    fontSize: '96px',
-    fontStyle: 'normal',
-    fontWeight: 100,
-    lineHeight: 'normal',
-    width: '657px',
-    height: '395px',
-    flexShrink: 0,
+    color: "#FFF",
+    textShadow: "1px 2px 3px rgba(0, 0, 0, 0.31)",
+    fontFamily: "Karla, sans-serif",
+    fontSize: "96px",
+    width: "657px",
+    paddingTop: "30px",
+    marginLeft: "60px",
   },
+
   subMainPhrase: {
-    width: '541px',
-    height: '74px',
-    flexShrink: 0,
-    color: '#FFF',
-    textShadow: '1px 7px 3px rgba(0, 0, 0, 0.11)',
-    fontFamily: 'Karla',
-    fontSize: '36px',
-    fontStyle: 'normal',
-    fontWeight: 100,
-    lineHeight: 'normal'
-  }
+    width: "541px",
+    color: "#FFF",
+    textShadow: "1px 2px 3px rgba(0, 0, 0, 0.31)",
+    fontFamily: "Karla, sans-serif",
+    fontSize: "36px",
+    marginLeft: "40px",
+  },
+
+  FeelingCircleContainer: {
+    paddingTop: "200px",
+    marginRight: "60px",
+  },
 };
 
 export default styles;

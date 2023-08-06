@@ -1,4 +1,5 @@
 import styles from "./HomepageStyles.jsx";
+import FeelingCircle from "./GetFeelingCircle.jsx";
 
 function Homepage() {
   return (
@@ -7,8 +8,13 @@ function Homepage() {
         <span>Hello</span>
       </div>
 
-      <div class="card p-2 m-5">
+      <div className="card p-2 m-5">
         <p>testing bootstrap</p>
+      </div>
+
+      <div>
+        <h2>Feeling Circle Test</h2>
+        {FeelingCircle()}
       </div>
     </>
   );

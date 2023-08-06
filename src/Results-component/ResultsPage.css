@@ -9,19 +9,24 @@ body {
 
 .results-container {
   text-align: center;
-  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .sorted-keys-container {
-  /* display: inline-block; */
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   padding: 10px; /* Add padding for spacing */
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Add text shadow for drop shadow effect */
   text-align: center;
   display: flex; /* Use flexbox */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  /* flex-direction: column; /* Stack content vertically */
+  /*  /* Stack content vertically */
+  flex-shrink: 1;
 }
 
 .sorted-keys {
@@ -29,21 +34,19 @@ body {
   margin: 0 5px;
   padding: 5px 10px;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
-  font-family: "Karla", sans-serif;
-  font-size: 50px;
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
   margin-left: 10px;
   border-radius: 5px;
   width: 941px;
 }
 
 .arg1 {
-  /*color: #C38D9D; /* Set the desired color */
   text-decoration: underline;
   text-decoration-color: #c38d9d;
 }
 
 .arg2 {
-  /* color: #C38D9D; /* Set the desired color */
   text-decoration: underline;
   text-decoration-color: #c38d9d;
 }
@@ -72,28 +75,14 @@ body {
   /* flex-direction: column; /* Stack content vertically */
 }
 
-.prompt {
-  margin-top: 20px;
-  width: 941px;
-  color: #ffffff;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
-  font-family: "Karla", "sans-serif";
-  font-size: 175px;
-  text-align: center;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-}
-
 .prompt2 {
   margin-top: 20px;
-  width: 941px;
-  color: #ffffff;
+  width: 1500px;
+  color: #FFFFFF;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.31);
-  font-family: "Karla", sans-serif;
-  font-size: 35px; /* Adjust font size */
+  font-family: 'Karla', sans-serif;
+  font-size: 30px; /* Adjust font size */
   text-align: center;
-  /*background-color: #e6e6fa; /* Set background color */
   padding: 20px; /* Add padding for spacing */
   border-radius: 10px; /* Add border radius for rounded corners */
   /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth*/
@@ -106,4 +95,43 @@ body {
 .loading {
   font-size: 18px;
   color: #333;
+}
+
+.back-button {
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.back-arrow {
+  color: #019D9F;
+  font-weight: 500;
+  font-size: 25px;
+  margin-right: px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 420px;
+}
+
+.back-arrow:hover {
+  color: #FFFFFF;
+}
+
+.material-symbols-outlined {
+  font-size: 36px;
+}
+  
+/* Use media queries to adjust styles for different screen sizes */
+@media screen and (max-width: 768px) {
+  .sorted-keys {
+    font-size: 8vw;
+  }
+
+  .prompt2 {
+    font-size: 5vw;
+    padding: 3vw;
+  }
 }

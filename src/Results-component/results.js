@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import jsonData from "../message_pairs.json";
+import React, { useEffect, useState } from 'react';
+import { useParams, Link } from "react-router-dom";
+import jsonData from '../message_pairs.json'
+
 
 // import './feelingsImages'
 
@@ -16,6 +17,7 @@ const feelingsToImages = {
   joyful: "./feelingsImages/joyful.jpeg",
   surprised: "src/Results-component/feelingsImages/surprised.jpeg",
 };
+
 
 const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
   const [arg1, arg2] = [selectedEmotions[0], selectedEmotions[1]];
@@ -62,6 +64,21 @@ const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
             <p className="loading">Loading...</p>
           )}
         </div>
+      </div>
+
+      <div className="back-button">
+        <Link to="../" className="back-arrow">
+
+          <div>
+            Generate another kind message!
+          </div>
+          
+          <div>
+            <span class="material-symbols-outlined">
+              replay
+            </span>
+          </div>
+        </Link>
       </div>
     </div>
   );

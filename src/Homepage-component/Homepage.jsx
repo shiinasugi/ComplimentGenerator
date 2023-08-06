@@ -60,6 +60,7 @@ const Homepage = () => {
               selectedEmotions={selectedEmotions}
               setSelectedEmotions={setSelectedEmotions}
               renderResult={renderResult}
+              setRenderResult={setRenderResult}
             />
           </div>
         </div>

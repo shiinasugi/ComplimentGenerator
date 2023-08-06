@@ -1,25 +1,25 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import jsonData from '../message_pairs.json'
-
-
-// import './feelingsImages'
+import jsonData from "../message_pairs.json";
 
 import "./ResultsPage.css";
 
-const feelingsToImages = {
-  anxious: "./feelingsImages/anxious.jpeg",
-  confident: "./feelingsImages/confident.avif",
-  depressed: "./feelingsImages/depressed.avif",
-  disappointed: "./feelingsImages/disappointed.jpeg",
-  excited: "src/Results-component/feelingsImages/excited.jpeg",
-  insecure: "./feelingsImages/insecure.jpeg",
-  joyful: "./feelingsImages/joyful.jpeg",
-  surprised: "src/Results-component/feelingsImages/surprised.jpeg",
-};
+// const feelingsToImages = {
+//   anxious: "./feelingsImages/anxious.jpeg",
+//   confident: "./feelingsImages/confident.avif",
+//   depressed: "./feelingsImages/depressed.avif",
+//   disappointed: "./feelingsImages/disappointed.jpeg",
+//   excited: "src/Results-component/feelingsImages/excited.jpeg",
+//   insecure: "./feelingsImages/insecure.jpeg",
+//   joyful: "./feelingsImages/joyful.jpeg",
+//   surprised: "src/Results-component/feelingsImages/surprised.jpeg",
+// };
 
-
-const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
+const ResultsPage = ({
+  selectedEmotions,
+  setSelectedEmotions,
+  setRenderResult,
+}) => {
   let [arg1, arg2] = [selectedEmotions[0], selectedEmotions[1]];
   const [randomString, setRandomString] = useState(null);
 
@@ -45,6 +45,11 @@ const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
     }
   }, [arg1, arg2]); // Use arg1 and arg2 as dependencies
 
+  const reset = () => {
+    setSelectedEmotions([]);
+    setRenderResult(false);
+  };
+
   return (
     <div className="results-container">
       <div className="sorted-keys-container">
@@ -52,11 +57,6 @@ const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
           Looks like you are feeling <span className="arg1">{arg1}</span> and{" "}
           <span className="arg2">{arg2}</span>!
         </h2>
-
-        {/* <div className="images">
-          <img src='./feelingsImages/excited.jpg' alt={arg1} className="image" />
-          <img src='./feelingsImages/excited.jpg' alt={arg2} className="image" />
-        </div> */}
       </div>
 
       <div className="prompt-container">
@@ -70,16 +70,11 @@ const ResultsPage = ({ selectedEmotions, setSelectedEmotions }) => {
       </div>
 
       <div className="back-button">
-        <Link to="../" className="back-arrow">
+        <Link to="../" className="back-arrow" onClick={reset}>
+          <div>Generate another kind message!</div>
 
           <div>
-            Generate another kind message!
-          </div>
-          
-          <div>
-            <span class="material-symbols-outlined">
-              replay
-            </span>
+            <span class="material-symbols-outlined">replay</span>
           </div>
         </Link>
       </div>

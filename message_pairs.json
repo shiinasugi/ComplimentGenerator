@@ -42,73 +42,309 @@
         ],
 
         "disappointed" : [
-
+            "Amidst the blend of anxious anticipation and feelings of disappointment, remember that setbacks are opportunities for growth.",
+            "Your anxious thoughts may fuel a fear of disappointment, but within that fear lies the potential for resilience and renewal.",
+            "Combining anxious uncertainty with feelings of disappointment can be tough. Let this moment be a catalyst for reevaluating your path.",
+            "During moments of both anxiety and disappointment, self-compassion becomes your refuge. Treat yourself kindly as you navigate these emotions.",
+            "Anxiety may whisper worst-case scenarios, and disappointment may speak of unmet expectations. Remember, your worth is not defined by outcomes.",
+            "In the midst of anxious overthinking and the sting of disappointment, recognize that your emotions are valid. They're stepping stones on your journey.",
+            "Your anxious mind and feelings of disappointment are reflections of your desire for better. Use these emotions as catalysts for positive change.",
+            "While anxiety thrives on 'what-ifs' and disappointment lingers in unmet hopes, your strength lies in your ability to adapt and overcome.",
+            "In the midst of anxious concerns and the weight of disappointment, acknowledge your feelings without judgment. You're navigating complex emotions.",
+            "When anxiety converges with disappointment, it's easy to lose sight of your strengths. Pause and reflect on the progress you've made.",
+            "Amidst the turbulence of anxious thoughts and the shadow of disappointment, remember that you're a constant work in progress.",
+            "Your anxious thoughts may lead to expectations, and disappointment might arise when those expectations aren't met. Practice embracing uncertainty.",
+            "In the intersection of anxious feelings and disappointment, remember that both emotions hold wisdom. They can guide you toward clarity.",
+            "Amidst the interplay of anxious questioning and the heaviness of disappointment, your resilience emerges. Allow it to carry you forward.",
+            "Let the energy of anxious anticipation drive your response to disappointment. Within you, lies the power to transform challenges into opportunities."
         ],
 
         "excited" : [
-
+            "Amid the blend of anxious anticipation and bubbling excitement, remember that you're on the cusp of something transformative.",
+            "Your anxious thoughts may accompany your excitement, reminding you of your commitment to taking chances and embracing new experiences.",
+            "Combining the rush of anxious energy with the thrill of excitement can be invigorating. Embrace the unknown and savor the adventure.",
+            "During moments of both anxiety and excitement, practice self-compassion. Trust that you have the strength to navigate through uncertainty.",
+            "Anxiety may arise from the fear of the unknown, while excitement comes from the thrill of possibility. Embrace the dance between the two.",
+            "In the midst of anxious questioning and the spark of excitement, recognize that growth often emerges from stepping outside your comfort zone.",
+            "Your anxious thoughts and excitement are intertwined, revealing the complexity of human emotion. Embrace the balance between caution and joy.",
+            "While anxiety may whisper doubts, let your excitement shout possibilities. Both emotions coexist to help you embrace new horizons.",
+            "In the midst of anxious concerns and the thrill of excitement, acknowledge your feelings without judgment. They pave the way for growth.",
+            "When anxiety and excitement intertwine, remember that the journey matters as much as the destination. Your growth lies in embracing both.",
+            "Amidst the whirlwind of anxious thoughts and the buzz of excitement, focus on your strengths. You're equipped to embrace challenges.",
+            "Your anxious thoughts may question your readiness, but your excitement reflects your readiness to embrace new opportunities.",
+            "In the intersection of anxious feelings and excitement, remember that both emotions guide you. They're compasses on your journey of self-discovery.",
+            "Amidst the interplay of anxious concerns and the surge of excitement, you're writing your story. Embrace the unknown with courage.",
+            "Let the energy of anxious anticipation fuel your enthusiasm. You're on the brink of something amazing, and your excitement is a beacon."
         ],
 
         "insecure" : [
-
+            "In moments of both anxiety and insecurity, remember that growth often emerges from stepping beyond your comfort zone.",
+            "Your anxious thoughts and feelings of insecurity remind you of your vulnerability. Acknowledge these emotions as you navigate challenges.",
+            "Combining the unease of anxious thoughts with feelings of insecurity can be overwhelming. Remind yourself of your inner strength and resilience.",
+            "During times of both anxiety and insecurity, treat yourself with gentleness. You're a work in progress, and it's okay to have doubts.",
+            "Anxiety may highlight uncertainties, while insecurity stems from self-doubt. Embrace the opportunity to practice self-compassion and acceptance.",
+            "In the dance between anxious concerns and feelings of insecurity, remember that every step is an act of courage. Your journey is unique and valid.",
+            "Your anxious thoughts and feelings of insecurity are a testament to your sensitivity. They reveal the depth of your emotions and experiences.",
+            "While anxiety may amplify your insecurities, let your inner strength be a guiding light. Trust that you have the ability to face challenges.",
+            "In the midst of anxious restlessness and feelings of insecurity, acknowledge your emotions without judgment. Your experiences are valid.",
+            "When anxiety and insecurity intertwine, remember that they are signals for growth. Let them guide you toward understanding and self-acceptance.",
+            "Amidst the uncertainty of anxious thoughts and the shadow of insecurity, practice patience with yourself. You're evolving at your own pace.",
+            "Your anxious thoughts may magnify your insecurities, but remember that you possess the power to shift your perspective and build confidence.",
+            "In the interplay of anxious emotions and feelings of insecurity, seek moments of stillness. Embrace the journey of self-discovery with grace.",
+            "Amidst the whirlwind of anxiety and insecurity, remind yourself that self-worth isn't determined by external measures. You are inherently valuable.",
+            "Let your anxious mind and your feelings of insecurity be reminders of your humanity. You're deserving of understanding and compassion."
         ], 
 
         "joyful" : [
-        
+            "In the mix of anxious anticipation and bubbling joy, remember that your capacity to feel deeply is a gift that enriches your journey.",
+            "Your anxious thoughts may accompany your joy, reminding you that even amidst excitement, it's okay to acknowledge your feelings.",
+            "Combining the energy of anxious thoughts with the glow of joy can be exhilarating. Embrace the ride and let your heart soar.",
+            "During times of both anxiety and joy, practice self-compassion. You're allowed to experience a range of emotions as you navigate life.",
+            "Anxiety may rise from the fear of the unknown, while joy blossoms from moments of connection and celebration. Embrace the balance between them.",
+            "In the midst of anxious questioning and the warmth of joy, recognize that your feelings are valid. They paint a vivid portrait of your journey.",
+            "Your anxious mind and feelings of joy are intertwined, creating a vibrant tapestry of experiences. Embrace the spectrum of your emotions.",
+            "While anxiety may attempt to cast shadows, let your joy shine brightly. Your capacity for joy is a testament to your resilient spirit.",
+            "In the midst of anxious concerns and the glow of joy, acknowledge your feelings without judgment. You're embracing the richness of life.",
+            "When anxiety and joy intersect, remind yourself that it's possible to experience both emotions simultaneously. Each complements the other.",
+            "Amidst the whirlwind of anxious thoughts and the radiance of joy, remember that the journey is as important as the destination.",
+            "Your anxious thoughts may question your readiness for joy, but remember that happiness doesn't require perfection—it's meant to be enjoyed.",
+            "In the intersection of anxious feelings and joy, remember that both emotions guide you. They're threads woven into the fabric of your experiences.",
+            "Amidst the interplay of anxious concerns and the spark of joy, remember that life's symphony comprises both gentle and crescendo moments.",
+            "Let the energy of anxious anticipation enhance your joy. You're savoring moments with a heart that's open to life's intricate melodies."
         ], 
 
         "surprised" : [
-
+            "In the midst of both anxious anticipation and unexpected surprises, remember that life's twists and turns often lead to growth.",
+            "Your anxious thoughts may mingle with the surprise, reminding you that it's okay to embrace the unknown and its unpredictability.",
+            "Combining the whirlwind of anxious thoughts with the element of surprise can be an adventure. Trust in your ability to adapt and navigate.",
+            "During times of both anxiety and surprise, practice self-compassion. Acknowledge your emotions as valid, whether they stem from anticipation or shock.",
+            "Anxiety may arise from uncertainties, while surprise comes from unexpected moments. Embrace the dynamic dance between the two.",
+            "In the midst of anxious questioning and the element of surprise, recognize that embracing the unexpected adds depth to your journey.",
+            "Your anxious thoughts and feelings of surprise coexist, forming a mosaic of experiences that illustrate the complexity of life.",
+            "While anxiety may try to overshadow your surprise, let your innate curiosity and adaptability take center stage.",
+            "In the company of both anxious concerns and the element of surprise, acknowledge your feelings without judgment. You're navigating a blend of emotions.",
+            "When anxiety meets surprise, remind yourself that it's possible to experience both emotions simultaneously. You're embracing life's full spectrum.",
+            "Amidst the storm of anxious thoughts and the delight of surprise, remember that the journey is marked by its twists and turns.",
+            "Your anxious thoughts may question your readiness for surprises, but remember that you have the ability to embrace the unexpected with grace.",
+            "In the interplay of anxious emotions and the element of surprise, remember that both emotions guide you. They enrich your understanding of life.",
+            "Amidst the blend of anxious concerns and the element of surprise, recognize that life's surprises often carry valuable lessons and insights.",
+            "Let the energy of anxious anticipation amplify your surprise. Embrace the awe of the unexpected with an open heart."
         ]
     },
 
 
     "confident" : {
         "depressed" : [
-
+            "In the interplay of confidence and depression, remember that your strength isn't diminished by your struggle. You're resilient and worthy.",
+            "Your confident spirit is a beacon of light, even in the midst of depression's shadows. Trust that you have the power to find your way back to brightness.",
+            "Combining your sense of confidence with feelings of depression can be challenging. Trust that your inner resilience will guide you toward healing.",
+            "During times of both confidence and depression, practice self-compassion. Embrace your imperfections and remember that you're deserving of love and understanding.",
+            "Confidence may whisper strength while depression may murmur doubt. Let your inner courage guide you through the labyrinth of emotions.",
+            "In the midst of your confident strides and the weight of depression, remember that acknowledging your feelings is a brave step toward healing.",
+            "Your confident mindset and feelings of depression coexist, revealing the intricate tapestry of your human experience. Embrace your complexity.",
+            "While depression may cast shadows, your confidence is a torch that illuminates the way toward hope. Trust your ability to overcome.",
+            "In the company of both confidence and depression, offer yourself grace. You're navigating a complex terrain where your inner light can shine through.",
+            "When confidence and depression intertwine, remember that your self-assuredness is an anchor. You have the power to weather the storm and emerge stronger.",
+            "Amidst your confident beliefs and the weight of depression, remember that acknowledging your emotions is a sign of your emotional intelligence.",
+            "Your confident thoughts may face depression's cloud, but within you resides the power to dispel those clouds with self-compassion and support.",
+            "In the dance between confident strides and feelings of depression, remember that both emotions hold wisdom. They shape your journey of growth.",
+            "Amidst your confident outlook and the depths of depression, recognize that your journey includes both peaks and valleys. Each holds a lesson.",
+            "Let the fire of your confidence burn brightly, even in the face of depression. Your self-assuredness is a source of strength during challenging times."
         ],
 
         "disappointed" : [
-
+            "In the interplay of confidence and disappointment, remember that setbacks don't define your worth. Your self-assuredness remains unwavering.",
+            "Your confident spirit shines even in the face of disappointment. Trust in your ability to bounce back and transform setbacks into stepping stones.",
+            "Combining your sense of confidence with feelings of disappointment can be disheartening. Let your inner strength guide you as you navigate this chapter.",
+            "During times of both confidence and disappointment, practice self-compassion. Allow yourself to process your emotions and learn from your experiences.",
+            "Confidence may stand tall while disappointment casts a shadow. Embrace the duality of these emotions and recognize their potential for growth.",
+            "In the midst of your confident strides and feelings of disappointment, remember that each setback is a chance to learn and refine your path.",
+            "Your confident mindset and feelings of disappointment coexist, painting a portrait of your resilience. Embrace your complexity and honor your journey.",
+            "While disappointment may attempt to overshadow your confidence, let your inner strength act as a guiding light. You have the power to overcome.",
+            "In the presence of both confidence and disappointment, offer yourself grace. You're navigating the ebb and flow of emotions with authenticity.",
+            "When confidence meets disappointment, remind yourself that your self-assuredness remains intact. Let it fuel your determination to move forward.",
+            "Amidst your confident beliefs and the sting of disappointment, remember that setbacks are temporary. Your potential remains unchanged.",
+            "Your confident thoughts may face the shadow of disappointment, but within you lies the power to channel disappointment into resilience.",
+            "In the dance between confident strides and feelings of disappointment, recognize that both emotions hold lessons. They guide you toward self-discovery.",
+            "Amidst your confident outlook and the weight of disappointment, remember that life's journey is marked by both triumphs and tribulations.",
+            "Let the fire of your confidence shine brightly, even in the face of disappointment. Your self-assuredness is a beacon that guides your path."
         ],
 
         "excited" : [
-
+            "Amid the blend of confidence and excitement, remember that your self-assuredness is a strong foundation for embracing new adventures.",
+            "Your confident spirit adds a spark of radiance to your excitement. Embrace the journey ahead with the knowledge that you're capable of great things.",
+            "Combining your sense of confidence with the thrill of excitement can be invigorating. Trust in your abilities as you embark on this exciting chapter.",
+            "During times of both confidence and excitement, practice self-compassion. Allow yourself to savor the joy of the moment and acknowledge your worth.",
+            "Confidence may bolster your excitement, reminding you that you have the power to shape the direction of your journey with purpose and intention.",
+            "In the midst of your confident strides and the exhilaration of excitement, remember that your belief in yourself propels you forward.",
+            "Your confident mindset and feelings of excitement coexist, creating a dynamic tapestry that reflects your strength and passion. Embrace your story.",
+            "While excitement may stir up a whirlwind, let your confidence act as an anchor. Your belief in yourself will help you navigate the highs and lows.",
+            "In the presence of both confidence and excitement, offer yourself grace. You're embarking on a path where self-belief fuels your dreams.",
+            "When confidence meets excitement, remember that your self-assuredness amplifies the joy. Trust that you have what it takes to achieve your goals.",
+            "Amidst your confident outlook and the rush of excitement, remember that your journey is marked by both bold leaps and steady strides.",
+            "Your confident thoughts may harmonize with the thrill of excitement, reminding you of the empowerment that comes from embracing life's opportunities.",
+            "In the dance between confident strides and feelings of excitement, recognize that both emotions guide you. They shape your pursuit of excellence.",
+            "Amidst your confident spirit and the surge of excitement, remember that your journey is characterized by moments of courage and determination.",
+            "Let the energy of your confidence enhance your excitement. Embrace the thrill of the unknown with the assurance that you're capable of greatness."
         ],
 
         "insecure" : [
-
+            "In the blend of confidence and insecurity, remember that self-assuredness doesn't mean having all the answers. Embrace growth as a lifelong journey.",
+            "Your confident spirit shines, even in the presence of insecurity. Trust that vulnerability is a sign of strength, and your growth knows no limits.",
+            "Combining your sense of confidence with moments of insecurity can be challenging. Allow your inner strength to guide you through these waves.",
+            "During times of both confidence and insecurity, practice self-compassion. Embrace your imperfections and recognize that self-doubt is a part of being human.",
+            "Confidence may hold your head high while insecurity attempts to cast shadows. Embrace the duality of these emotions and learn from each experience.",
+            "In the dance between confident strides and moments of insecurity, remember that acknowledging vulnerability is an act of courage that leads to growth.",
+            "Your confident mindset and moments of insecurity coexist, painting a picture of your journey's depth and complexity. Embrace your evolving story.",
+            "While insecurity may attempt to undermine your confidence, let your inner strength be a guide. You're more resilient than you realize.",
+            "In the presence of both confidence and insecurity, offer yourself grace. You're navigating a dynamic terrain where self-belief and self-discovery intersect.",
+            "When confidence meets insecurity, remind yourself that even during moments of doubt, your self-assuredness remains intact. Trust your growth.",
+            "Amidst your confident beliefs and waves of insecurity, remember that acknowledging your vulnerabilities is a mark of authenticity and courage.",
+            "Your confident thoughts may encounter moments of insecurity, but within you resides the power to transform those moments into opportunities for growth.",
+            "In the dance between confident strides and feelings of insecurity, recognize that both emotions hold wisdom. They guide you toward deeper understanding.",
+            "Amidst your confident outlook and the ebb of insecurity, remember that growth often emerges from moments of vulnerability and self-exploration.",
+            "Let the fire of your confidence burn brightly, even as you navigate moments of insecurity. Your self-assuredness is a compass guiding you forward."
         ], 
 
         "joyful" : [
-        
+            "Amid the blend of confidence and joy, remember that your self-assuredness enhances the brilliance of your moments of happiness.",
+            "Your confident spirit elevates your joy to new heights. Embrace the journey with the knowledge that you deserve every ounce of happiness.",
+            "Combining your sense of confidence with the radiance of joy can be electrifying. Trust in your abilities to embrace and amplify life's joys.",
+            "During times of both confidence and joy, practice self-compassion. Allow yourself to savor the happiness and recognize your worthiness.",
+            "Confidence may stand tall while joy sparkles like a gem. Let your inner assurance harmonize with the joyous melodies of your heart.",
+            "In the midst of your confident strides and the glow of joy, remember that your belief in yourself is a source of strength and celebration.",
+            "Your confident mindset and feelings of joy coexist, painting a vibrant picture of your journey. Embrace the dance between self-assuredness and elation.",
+            "While joy radiates, let your confidence serve as an anchor, grounding you in the present moment and reminding you of your own brilliance.",
+            "In the presence of both confidence and joy, offer yourself grace. You're living a life where self-belief and jubilance weave a beautiful tapestry.",
+            "When confidence meets joy, remember that your self-assuredness enhances the experience. Trust in your ability to savor and celebrate life's blessings.",
+            "Amidst your confident beliefs and the glow of joy, remember that happiness is amplified when shared with a heart that knows its worth.",
+            "Your confident thoughts may harmonize with the melodies of joy, reminding you that your journey includes moments of self-celebration.",
+            "In the dance between confident strides and feelings of joy, recognize that both emotions guide you. They illuminate your path of growth and fulfillment.",
+            "Amidst your confident spirit and the radiance of joy, remember that life's tapestry is woven with threads of both celebration and growth.",
+            "Let the energy of your confidence infuse your joy. Embrace life's moments with the assurance that you're deserving of every happiness."
         ], 
 
         "surprised" : [
-
+            "Amid the blend of confidence and surprise, remember that your self-assuredness empowers you to navigate unexpected turns with grace and resilience.",
+            "Your confident spirit adds a touch of wonder to your surprise. Embrace the unexpected with the knowledge that you're capable of embracing the unknown.",
+            "Combining your sense of confidence with the element of surprise can be invigorating. Trust in your ability to adapt and find beauty in the unexpected.",
+            "During times of both confidence and surprise, practice self-compassion. Allow yourself to savor the moments of surprise and acknowledge your inner strength.",
+            "Confidence may stand tall while surprise adds a spark of curiosity. Let your inner assurance guide you through the adventure of life's surprises.",
+            "In the midst of your confident strides and the element of surprise, remember that your belief in yourself is a steady compass during unexpected journeys.",
+            "Your confident mindset and moments of surprise coexist, creating a mosaic of experiences that reflect your resilience and capacity for wonder.",
+            "While surprise may stir up a whirlwind, let your confidence be the anchor that grounds you and guides you through unexpected waters.",
+            "In the presence of both confidence and surprise, offer yourself grace. You're navigating a dynamic path where self-belief and unexpected moments converge.",
+            "When confidence meets surprise, remember that your self-assuredness enhances your ability to embrace the unforeseen. Trust in your adaptability.",
+            "Amidst your confident outlook and the element of surprise, remember that your journey is enriched by the unexpected detours and delightful surprises.",
+            "Your confident thoughts may harmonize with the element of surprise, reminding you of your ability to embrace life's mysteries with courage and curiosity.",
+            "In the dance between confident strides and moments of surprise, recognize that both emotions guide you. They shape your journey of growth and exploration.",
+            "Amidst your confident spirit and the element of surprise, remember that life's beauty often emerges from moments of unexpected wonder.",
+            "Let the energy of your confidence amplify your surprise. Embrace life's unexpected gifts with the assurance that you can navigate any path."
         ]
     },
 
     "depressed" : {
         "disappointed" : [
-
+            "Amid the weight of depression and disappointment, remember that your journey is marked by both valleys and peaks. Each moment shapes your resilience.",
+            "In the interplay of depressed thoughts and feelings of disappointment, remind yourself that acknowledging your emotions is a sign of strength and self-awareness.",
+            "Combining the heaviness of depression with the sting of disappointment can be overwhelming. Offer yourself grace as you navigate these challenging emotions.",
+            "During times of both depression and disappointment, practice self-compassion. Allow yourself to grieve the unmet expectations while holding onto hope.",
+            "Depression may cast shadows while disappointment adds to the ache. Embrace the complexity of these emotions and recognize your capacity to heal.",
+            "In the midst of your depressive state and feelings of disappointment, remember that healing begins with self-acceptance and gentle self-care.",
+            "Your depressive thoughts and feelings of disappointment coexist, revealing the intricate tapestry of your emotional landscape. Embrace your complexity.",
+            "While depression may cloud your vision, let your moments of disappointment be a reminder that growth often emerges from life's unforeseen turns.",
+            "In the presence of both depression and disappointment, offer yourself grace. You're navigating a challenging path where self-compassion is your guiding light.",
+            "When depression meets disappointment, remind yourself that healing is a gradual process. Seek support and nurture your journey toward renewal.",
+            "Amidst your depressive feelings and the weight of disappointment, remember that your worth isn't determined by external outcomes. You're inherently valuable.",
+            "Your depressive thoughts may magnify feelings of disappointment, but remember that healing involves embracing the messiness of your emotions.",
+            "In the dance between the depths of depression and feelings of disappointment, recognize that both emotions guide you toward a path of understanding.",
+            "Amidst your depression's grip and the ache of disappointment, remember that healing is a journey that invites you to explore and embrace your emotions.",
+            "Let your moments of disappointment be a reminder that healing isn't linear. Embrace each step as you navigate the interplay of depression and disappointment.",
+            "While depression may cast a heavy shadow, let your moments of disappointment be sparks of hope. You're capable of finding light within the darkness.",
+            "In the blend of depressive thoughts and feelings of disappointment, remember that your journey is marked by your courage to face challenges head-on.",
+            "Your depressive mindset and feelings of disappointment coexist, revealing the complexity of your emotional world. Embrace your journey with empathy.",
+            "During moments of both depression and disappointment, remember that healing involves embracing your emotions and seeking the support you deserve.",
+            "In the tapestry of depressive thoughts and the ache of disappointment, you're crafting a narrative of strength and resilience. You're capable of navigating through the challenges."
         ],
 
         "excited" : [
-
+            "Amid the weight of depression and the glimmers of excitement for the future, remember that you're capable of finding sparks of hope even in challenging times.",
+            "In the interplay of depressive thoughts and the anticipation of a brighter future, remind yourself that your dreams hold the potential to guide you toward healing.",
+            "Combining the heaviness of depression with the excitement for what lies ahead can be a journey of discovery. Trust in your ability to transform pain into growth.",
+            "During times of both depression and hopeful anticipation, practice self-compassion. Allow yourself to imagine a future where your heart finds solace.",
+            "Depression may cast shadows while excitement for the future brings rays of light. Embrace the complexity of these emotions and nurture the spark within.",
+            "In the midst of your depressive state and the glimmers of excitement, remember that healing is often a cyclical journey, and brighter days await you.",
+            "Your depressive thoughts and hopeful excitement coexist, painting a mosaic of experiences that reflect your resilience and capacity for renewal.",
+            "While depression may weigh heavily, let your excitement for the future be a reminder that healing is a process of finding moments of joy and growth.",
+            "In the presence of both depression and anticipation, offer yourself grace. You're navigating a path where your dreams act as guideposts toward healing.",
+            "When depression meets the excitement for a better tomorrow, remind yourself that your ability to envision a brighter future is a testament to your strength.",
+            "Amidst your depressive feelings and the flicker of excitement, remember that your journey is marked by your capacity to nurture dreams even in the darkness.",
+            "Your depressive thoughts may influence your perspective, but your excitement for the future serves as a beacon of hope and a catalyst for change.",
+            "In the dance between the depths of depression and the sparks of excitement, recognize that both emotions guide you toward a path of growth and renewal.",
+            "Amidst your struggle with depression and the glimmers of excitement, remember that healing involves embracing the potential for transformation and renewal.",
+            "Let your excitement for the future be a gentle reminder that your depression is a chapter, not the entire story. Embrace the narrative of healing."
         ],
 
         "insecure" : [
-
+            "Amid the weight of depression and moments of insecurity, remember that your journey involves both dark valleys and opportunities for self-discovery.",
+            "In the interplay of depressive thoughts and feelings of insecurity, remind yourself that seeking support is a courageous step toward healing and growth.",
+            "Combining the heaviness of depression with moments of insecurity can be challenging. Allow yourself to be gentle as you navigate these complex emotions.",
+            "During times of both depression and insecurity, practice self-compassion. Embrace your vulnerabilities and recognize that you're worthy of love and understanding.",
+            "Depression may cast shadows while insecurity adds layers of doubt. Embrace the duality of these emotions and remember that healing is a journey.",
+            "In the midst of your depressive state and moments of insecurity, remember that self-discovery often involves embracing the aspects of yourself that feel vulnerable.",
+            "Your depressive thoughts and feelings of insecurity coexist, creating a tapestry of experiences that reflect your strength and your potential for transformation.",
+            "While depression may influence your perspective, let your moments of insecurity be a reminder that healing involves embracing your vulnerabilities.",
+            "In the presence of both depression and insecurity, offer yourself grace. You're navigating a path where self-compassion and self-discovery converge.",
+            "When depression meets moments of insecurity, remind yourself that your worth isn't determined by external judgments. You're inherently valuable.",
+            "Amidst your struggle with depression and the waves of insecurity, remember that healing involves embracing all aspects of yourself with compassion.",
+            "Your depressive thoughts may magnify feelings of insecurity, but remember that growth often begins when you acknowledge and nurture your vulnerabilities.",
+            "In the dance between the depths of depression and moments of insecurity, recognize that both emotions guide you toward a path of understanding and acceptance.",
+            "Amidst your depressive feelings and the moments of insecurity, remember that your journey involves uncovering your strengths even in times of vulnerability.",
+            "Let your moments of insecurity be a reminder that healing involves accepting yourself with all your imperfections. Embrace the journey of self-discovery.",
+            "While depression may create clouds of uncertainty, your moments of insecurity are opportunities for self-compassion and growth.",
+            "In the blend of depressive thoughts and feelings of insecurity, remember that your sense of self-worth is a guiding light as you navigate challenges.",
+            "Your depressive mindset and moments of insecurity coexist, creating a narrative of strength and resilience. Embrace the mosaic of your emotional landscape.",
+            "During moments of both depression and insecurity, remember that healing involves acknowledging your vulnerabilities and seeking the support you deserve.",
+            "In the tapestry of depressive thoughts and moments of insecurity, you're weaving a story of strength and self-acceptance. Your journey involves embracing your authentic self."
         ], 
 
         "joyful" : [
-        
-        ], 
+            "During moments of depression, hold onto the memory of joy as a guiding light. Just as stars shine brightest in the darkest skies, let the sparks of joy remind you that brighter days are ahead.",
+            "Amidst the grip of depression, let the current of joy flow beneath the surface. Like a hidden stream, the undercurrent of joy can offer solace and assurance that this challenging time is temporary.",
+            "In the depths of depression, remember that even the smallest moments of joy are worth cherishing. Embrace these moments as glimmers of hope that can light the way through the darkness.",
+            "When depression's weight is heavy, allow the sparks of joy to be your compass. Just as a single candle can dispel the darkness, let moments of joy guide you towards a path of healing.",
+            "While depression may overshadow, nurture the seeds of joy within you. Just as flowers can bloom in unexpected places, let the joy within you find ways to grow and uplift even in tough times.",
+            "In the dance between depression and joy, find strength in the moments of light. Each instance of joy is a reminder that even in struggle, your capacity for happiness persists.",
+            "During bouts of depression, remember that moments of joy are not lost but temporarily hidden. Allow these hidden treasures to remind you that your heart still holds the power to experience happiness.",
+            "Amidst the grip of depression, let the thread of joy weave through your thoughts. Just as colors can paint even the darkest canvas, let moments of joy add hues to your life.",
+            "When depression lingers, seek solace in the pockets of joy. Embrace these pockets as oases that provide respite, reminding you that joy can exist alongside challenging emotions.",
+            "In the tapestry of depression, allow the threads of joy to be interwoven. Each instance of joy is a testament to your resilience, a reminder that you possess the strength to navigate both light and shadow.",
+            "Within the depths of depression, recognize that joy can be a lifeline. Embrace these lifelines, as they can help you rise above the darkness and remind you of the beauty of living.",
+            "When depression's weight is heavy, let the sparks of joy become your source of energy. Just as a battery can power even in the darkest hours, let joy recharge your spirit.",
+            "While depression may cast doubt, hold onto the certainty of joy's existence. Allow the certainty to be a foundation upon which you can rebuild your emotional landscape.",
+            "In the midst of battling depression, let the moments of joy be your guideposts. Each moment is a reminder that joy can coexist with hardship, illuminating your path forward.",
+            "During the grip of depression, remember that joy is a part of your identity. Embrace this truth, knowing that your capacity for joy is a force that can help you triumph over adversity.",
+            "While depression's weight can be overwhelming, remember that joy is a beacon of resilience. Embrace the sparks of joy, as they hold the power to light up even the darkest corners of your mind."
+        ],          
 
         "surprised" : [
-
-        ]
+            "During moments of depression, remember that life has a way of springing surprises even when things seem bleak. Embrace the uncertainty, as these surprises could hold the potential for positive change and new beginnings.",
+            "Amidst the grip of depression, let the feeling of surprise become your ally. Just as unexpected clouds can bring rainbows, let the unexpected moments in life remind you of the beauty that can emerge, igniting sparks of hope even in the darkest times.",
+            "In the depths of depression, remember that even the most surprising and small victories can hold immense power. Embrace these unexpected moments as stepping stones towards healing and growth.",
+            "When the weight of depression is heavy, let yourself be open to the element of surprise. Just as the sun can break through clouds, allow unexpected moments to remind you that brighter days are possible.",
+            "While depression might cast a shadow, let the element of surprise be a guiding light. Unexpected joys can serve as beacons of hope, showing that there's a world beyond the darkness you're experiencing.",
+            "In the dance between depression and surprise, find strength in the unexpected. Each surprise is a reminder that life can still hold wonder, even during challenging times.",
+            "During bouts of depression, recognize that life's surprises can be both healing and transformative. Allow yourself to be open to these surprises, as they could offer the breakthroughs you need.",
+            "Amidst the grip of depression, let the unexpected become a source of resilience. Just as a tiny sprout can crack through concrete, unexpected moments can pave the way for renewal and change.",
+            "When depression lingers, remember that surprises can be beacons of change. Embrace the power of the unexpected, as it might hold the key to unlocking doors you didn't know existed.",
+            "In the tapestry of depression, let the threads of surprise be woven. Each unexpected moment is a reminder that life's beauty can shine through, no matter how dark the backdrop.",
+            "Within the depths of depression, keep in mind that surprises can be seeds of hope. Allow the unexpected to remind you that even in the midst of darkness, there's potential for growth and renewal.",
+            "When depression's weight is heavy, seek solace in the element of surprise. Just as a sudden breeze can lift a heavy cloud, unexpected moments can lift your spirits and remind you of life's magic.",
+            "While depression may cloud your perspective, remember that life's surprises can shape new horizons. Embrace the unexpected, for it has the power to reshape your journey.",
+            "In the midst of battling depression, let the element of surprise be your guiding star. Each unexpected moment is a reminder that life's twists and turns can lead to moments of joy and discovery.",
+            "During the grip of depression, keep in mind that even the smallest surprises can create ripples of change. Allow these unexpected moments to be catalysts for finding your way back to the light.",
+            "While depression's weight can be overwhelming, remember that the unexpected can be a source of strength. Embrace life's surprises, as they hold the potential to lift you from the depths."
+          ]          
     },
 
     "disappointed" : {

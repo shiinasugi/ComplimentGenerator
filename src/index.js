@@ -24,8 +24,8 @@ const router = createBrowserRouter([
 
   {
     path: "/results/:arg1/:arg2", // Route with TWO parameters
-    element: <ResultsPage/>
-  }
+    element: <ResultsPage />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

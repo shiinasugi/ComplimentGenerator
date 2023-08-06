@@ -8,13 +8,12 @@ const styles = {
   Content: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
   },
 
   PhraseContainer: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center",
     minHeight: "100vh",
   },
 
@@ -35,11 +34,42 @@ const styles = {
     fontFamily: "Karla, sans-serif",
     fontSize: "36px",
     marginLeft: "40px",
+    paddingTop: "200px",
+  },
+
+  mainEmotionsPhrase: {
+    color: "#FFF",
+    textShadow: "1px 2px 3px rgba(0, 0, 0, 0.31)",
+    fontFamily: "Karla, sans-serif",
+    fontSize: "75px",
+    width: "657px",
+    paddingTop: "30px",
+    marginLeft: "60px",
   },
 
   FeelingCircleContainer: {
-    paddingTop: "200px",
+    paddingTop: "100px",
     marginRight: "60px",
+  },
+
+  Button: {
+    color: "#019D9F",
+    fontFamily: "Karla, sans-serif",
+    fontSize: "24px",
+    fontWeight: "500",
+    marginLeft: "60px",
+    marginTop: "60px",
+    border: "none",
+
+    display: "flex",
+    flexDirection: "row",
+    width: "500px",
+    justifyContent: "space-between",
+  },
+
+  ArrowIcon: {
+    fontSize: "36px",
+    fontWeight: "300",
   },
 };
 

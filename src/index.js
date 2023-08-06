@@ -10,15 +10,15 @@ import MissionPage from "./testComp/mission";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage/>,
+    element: <HomePage />,
   },
-    {
+  {
     path: "/about",
-    element: <AboutPage/>,
+    element: <AboutPage />,
   },
-      {
+  {
     path: "/mission",
-    element: <MissionPage/>,
+    element: <MissionPage />,
   },
 ]);
 
@@ -26,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <DefaultLayout>
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </DefaultLayout>
   </React.StrictMode>
 );

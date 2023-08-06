@@ -10,20 +10,18 @@ import ResultsPage from "./Results-component/results";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ComplimentGenerator",
     element: <HomePage />,
   },
   {
-    path: "/about",
+    path: "/ComplimentGenerator/about",
     element: <AboutPage />,
   },
   {
-    path: "/mission",
+    path: "/ComplimentGenerator/mission",
     element: <MissionPage />,
   },
-
   {
-    path: "/results/:arg1/:arg2", // Route with TWO parameters
     element: <ResultsPage />,
   },
 ]);

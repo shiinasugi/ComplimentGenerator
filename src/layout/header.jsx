@@ -3,15 +3,15 @@ import svgfile from "../static/menuIcon.svg";
 const navBarItems = [
   {
     content: "Home",
-    to: "/",
+    to: "/ComplimentGenerator",
   },
   {
     content: "Mission",
-    to: "/mission",
+    to: "/ComplimentGenerator/mission",
   },
   {
     content: "About Us",
-    to: "/about",
+    to: "/ComplimentGenerator/about",
   },
 ];
 

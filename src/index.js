@@ -1,11 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import styles from './indexStyles.jsx';
-
-import Homepage from "./Homepage-component/Homepage";
-import DefaultLayout from "./layout/default";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import HomePage from "./testComp/home";
+
+import DefaultLayout from "./layout/default";
+import HomePage from "./Homepage-component/Homepage";
 import AboutPage from "./testComp/about";
 import MissionPage from "./testComp/mission";
 

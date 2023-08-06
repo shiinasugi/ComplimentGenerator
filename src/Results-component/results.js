@@ -18,7 +18,7 @@ const feelingsToImages = {
   "surprised" : 'src/Results-component/feelingsImages/surprised.jpeg'
 };
 
-const ResultsPage = () => {
+const ResultsPage = () => { // (arg1, arg2)
   const { arg1, arg2 } = useParams(); // Use useParams to get URL parameters
 
   const [randomString, setRandomString] = useState(null);

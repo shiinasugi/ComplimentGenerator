@@ -33,6 +33,7 @@ export default function Header() {
         padding: 24,
         width: "100%",
         margin: 0,
+        position: "fixed",
       }}
     >
       <div className="container">

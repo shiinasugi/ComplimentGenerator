@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { Chart as ChartJS, ArcElement } from "chart.js";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 import { Pie, getElementsAtEvent } from "react-chartjs-2";
@@ -13,7 +13,6 @@ const FeelingCircle = ({
   renderResult,
   setRenderResult,
 }) => {
-
   const data = {
     datasets: [
       {
@@ -89,11 +88,11 @@ const FeelingCircle = ({
     );
   } else {
     return (
-        <ResultsPage
-          selectedEmotions={selectedEmotions}
-          setSelectedEmotions={setSelectedEmotions}
-          setRenderResult={setRenderResult}
-        />
+      <ResultsPage
+        selectedEmotions={selectedEmotions}
+        setSelectedEmotions={setSelectedEmotions}
+        setRenderResult={setRenderResult}
+      />
     );
   }
 };

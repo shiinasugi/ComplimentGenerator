@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ComplimentGenerator/static/css/main.eba0ace2.css",
-    "main.js": "/ComplimentGenerator/static/js/main.afa730f9.js",
-    "static/media/menuIcon.svg": "/ComplimentGenerator/static/media/menuIcon.94b16cb6547638d14002493dede02a77.svg",
-    "index.html": "/ComplimentGenerator/index.html",
-    "main.eba0ace2.css.map": "/ComplimentGenerator/static/css/main.eba0ace2.css.map",
-    "main.afa730f9.js.map": "/ComplimentGenerator/static/js/main.afa730f9.js.map"
+    "main.css": "/ComplimentGenerator.git/static/css/main.eba0ace2.css",
+    "main.js": "/ComplimentGenerator.git/static/js/main.834a395a.js",
+    "static/media/menuIcon.svg": "/ComplimentGenerator.git/static/media/menuIcon.94b16cb6547638d14002493dede02a77.svg",
+    "index.html": "/ComplimentGenerator.git/index.html",
+    "main.eba0ace2.css.map": "/ComplimentGenerator.git/static/css/main.eba0ace2.css.map",
+    "main.834a395a.js.map": "/ComplimentGenerator.git/static/js/main.834a395a.js.map"
   },
   "entrypoints": [
     "static/css/main.eba0ace2.css",
-    "static/js/main.afa730f9.js"
+    "static/js/main.834a395a.js"
   ]
 }

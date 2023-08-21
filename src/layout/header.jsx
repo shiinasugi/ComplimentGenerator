@@ -1,17 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import svgfile from "../static/menuIcon.svg";
+
 const navBarItems = [
   {
     content: "Home",
-    to: "/ComplimentGenerator",
+    to: "/",
   },
   {
     content: "Mission",
-    to: "/ComplimentGenerator/mission",
+    to: "/Mission",
   },
   {
     content: "About Us",
-    to: "/ComplimentGenerator/about",
+    to: "/About",
   },
 ];
 
@@ -59,3 +61,21 @@ export default function Header() {
     </div>
   );
 }
+
+// export default function Header() {
+//   return (
+//     <nav>
+//     <ul>
+//       <li>
+//         <Link to="/">Home</Link>
+//       </li>
+//       <li>
+//         <Link to="/Mission">Mission</Link>
+//       </li>
+//       <li>
+//         <Link to="/About">About</Link>
+//       </li>
+//     </ul>
+//   </nav>
+//   );
+// }

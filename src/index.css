@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html body {
+  overflow-x: inherit;
+}

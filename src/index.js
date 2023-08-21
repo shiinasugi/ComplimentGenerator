@@ -1,36 +1,28 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import DefaultLayout from "./layout/default";
 import HomePage from "./Homepage-component/Homepage";
 import AboutPage from "./testComp/about";
 import MissionPage from "./testComp/mission";
-import ResultsPage from "./Results-component/results";
+import NoPage from "./NoPage.js";
 
-const router = createBrowserRouter([
-  {
-    path: "/ComplimentGenerator",
-    element: <HomePage />,
-  },
-  {
-    path: "/ComplimentGenerator/about",
-    element: <AboutPage />,
-  },
-  {
-    path: "/ComplimentGenerator/mission",
-    element: <MissionPage />,
-  },
-  {
-    element: <ResultsPage />,
-  },
-]);
+import "./index.css";
+
+export default function App() {
+  return (
+    <Router>
+      <div>
+        <DefaultLayout />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/About" element={<AboutPage />} />
+          <Route path="/Mission" element={<MissionPage />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <DefaultLayout>
-      <RouterProvider router={router} />
-    </DefaultLayout>
-  </React.StrictMode>
-);
+root.render(<App />);

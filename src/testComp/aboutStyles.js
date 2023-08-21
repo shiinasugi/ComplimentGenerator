@@ -10,28 +10,40 @@ const styles = {
   },
 
   heading: {
-    width: "444px",
-    height: "104px",
     flexShrink: 0,
     color: "#FFF",
     textShadow: "1px 3px 3px rgba(0, 0, 0, 0.11)",
     fontFamily: "Karla, sans-serif",
     fontSize: "60px",
     fontWeight: 400,
-    paddingTop: "50px",
-    paddingBottom: "100px",
+    paddingTop: "100px",
+    paddingBottom: "50px",
   },
 
-  text: {
+  firstText: {
     margin: "20px 0", // Add space between items
     color: "#FFF",
     textShadow: "1px 3px 3px rgba(0, 0, 0, 0.11)",
     fontFamily: "Karla, sans-serif",
-    fontSize: "34px",
+    fontSize: "30px",
     fontWeight: 50,
     flexShrink: 0,
+    paddingLeft: "100px",
+    paddingRight: "100px",
+    textAlign: "left",
+  },
+
+  text: {
+    margin: "20px 0",
+    color: "#F8F8F8",
+    fontFamily: "Karla, sans-serif",
+    fontSize: "20px",
+    fontWeight: 50,
+    flexShrink: 0,
+    paddingTop: "50px",
     paddingLeft: "200px",
     paddingRight: "200px",
+    textAlign: "left",
   },
 };
 

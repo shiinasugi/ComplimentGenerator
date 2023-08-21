@@ -4,7 +4,7 @@ import svgfile from "../static/menuIcon.svg";
 const navBarItems = [
   {
     content: "Home",
-    to: "/ComplimentGenerator",
+    to: "/",
   },
   {
     content: "Mission",

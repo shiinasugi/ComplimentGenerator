@@ -14,7 +14,7 @@ export default function App() {
       <div>
         <DefaultLayout />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route exact path="/" element={<HomePage />} />
           <Route path="/About" element={<AboutPage />} />
           <Route path="/Mission" element={<MissionPage />} />
           <Route path="*" element={<NoPage />} />

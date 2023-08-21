@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import svgfile from "../static/menuIcon.svg";
 
 const navBarItems = [
@@ -19,9 +20,9 @@ const navBarItems = [
 const MenuItemComp = ({ item }) => {
   return (
     <div className="col-2">
-      <a href={item.to} style={{ textDecoration: "none", color: "white" }}>
+      <Link to={item.to} style={{ textDecoration: "none", color: "white" }}>
         {item.content}
-      </a>
+      </Link>
     </div>
   );
 };

@@ -58,10 +58,6 @@ const FeelingCircle = ({
 
   const chartRef = useRef();
 
-  useEffect(() => {
-    console.log("replaced array: ", selectedEmotions);
-  }, [selectedEmotions]);
-
   const onClick = (event) => {
     if (getElementsAtEvent(chartRef.current, event).length > 0) {
       const dataPoint = getElementsAtEvent(chartRef.current, event)[0].index;
